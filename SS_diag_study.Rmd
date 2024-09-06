@@ -33,10 +33,10 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9639742/
 * From prior evidence, we expect a prevalence of 3% RHD (2% with mild (stage A or B) rheumatic heart disease, 1% with advanced (stage C or D) rheumatic heart disease)
 * We set the type 1 error to the conventional 5% (translates into 95% confidence interval) and aim for a marginal effect of maximum 5%, i.e., in 95 out of 100 studies, the true value of sensitivity will fall within the range of ± 5%.
 
-* Use single-text design formula for Sensitivity: n1_Se = ((Z^2 * Se * (1-Se)) / d^2)
+* Use single-test design formula for Sensitivity: n1_Se = ((Z^2 * Se * (1-Se)) / d^2)
 * Then, adjust for disease prevalence: N_Se = n1_Se/P
 
-* Use single-text design formula for Specificity: n1_Sp = ((Z^2 * Sp * (1-Sp)) / d^2)
+* Use single-test design formula for Specificity: n1_Sp = ((Z^2 * Sp * (1-Sp)) / d^2)
 * Then, adjust for disease prevalence: N_Sp = n1_Sp/P
 
 ## Fix parameters
